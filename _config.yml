@@ -1,0 +1,39 @@
+title: "Home Buns"
+email: info@homebuns.com
+timezone: UTC
+baseurl: ""
+permalink: "/:title/"
+logo: 'assets/images/homebunslogo.jpg'
+favicon: 'assets/images/favicon.ico'
+author: Adrian Robles
+locale: es_cr
+lang: es_cr
+markdown: kramdown
+kramdown:
+  syntax_highlighter_opts:
+    disable: true
+sass:
+  sass_dir: _sass
+  style: :compressed
+ganalytics: UA-113961478-1
+url: "https://homebuns.com"
+
+# Products
+collections:
+  products:
+    _hide_content: false
+    output: true
+
+
+# Social
+social:
+  instagram: https://www.instagram.com/homebunscr/
+  facebook: https://www.facebook.com/homebuns
+
+# Plugins
+plugins: 
+- jekyll-paginate
+- jekyll-sitemap
+- jekyll-feed
+- jekyll-seo-tag
+- jekyll-archives

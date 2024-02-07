@@ -1,0 +1,40 @@
+---
+layout: default
+title: Productos
+permalink: "/productos/"
+---
+
+{% if page.url == "/productos/" %}
+<!-- Image Div -->
+<div class="image-div">
+    <img class="intro" src="{{site.baseurl}}/assets/images/home_main_image.jpg">
+    <div class="overlay-text">
+        <h2>You are in Productos</h2>
+        <p>Additional text goes here</p>
+    </div>
+</div>
+
+<!-- PRODUCTS -->
+
+<div class="product-board">
+    {% for product in site.products %}
+      <div class="product-item col-md-4">
+        <div class="product-image-container">
+          <img src="{{ site.url }}{{ product.image }}" alt="">
+        </div>
+        <div class="product-text">
+          <p>{{ product.title }}</p>
+          <p>{{ product.description_markdown | truncate: 92 | markdownify }}</p>
+          <p>{{ product.price }}</p>
+          <a href="http://take.app/homebuns" target="_blank">Order now!</a>
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+
+{% endif %}
+
+
+
+
+

@@ -1,0 +1,338 @@
+---
+---
+
+// start content
+
+//@import 'bootstrap/bootstrap';
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;500&family=Roboto+Condensed:wght@400;500&display=swap');
+/*font-family: 'Oswald', sans-serif;
+font-family: 'Roboto Condensed', sans-serif;*/
+
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&family=Yellowtail&display=swap');
+
+
+/*font-family: 'Satisfy', cursive;
+font-family: 'Yellowtail', cursive;*/
+
+@import url('https://fonts.googleapis.com/css2?family=Sedgwick+Ave&display=swap');
+/*font-family: 'Sedgwick Ave', cursive;*/
+
+
+/* BASICS */
+
+html {
+    scroll-behavior: smooth;
+    background-color: #000;
+  }
+  
+body {
+    background:#000 !important;
+    font-size:19px;
+    transition: all 200ms linear;
+    font-family: 'Roboto', sans-serif;
+    line-height:1.7;
+    color: rgb(172, 172, 172) !important;
+    overflow-x:hidden;
+}
+
+@media (max-width: 1366px) {
+    .container-xl, .container-lg, .container-md, .container-sm, .container {
+        width:100%;
+        max-width:100%;
+        padding:0 25px;
+    }
+}
+main {min-height:500px;}
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6, .navbar-light .navbar-brand, .text-dark, .dropdown-item {
+    color: rgb(255, 255, 255);
+}
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    font-weight:600;
+}
+h4, .h4, h5, .h5 {
+    line-height:1.4;
+}
+
+.font-weight-bold {
+    font-weight:600 !important;
+}
+a {
+    color:inherit;
+    text-decoration:none;
+    transition: all .4s;
+    &:hover {
+        text-decoration:none;
+        color:inherit;
+        transition: all .4s;
+    }
+}
+img, video {max-width:100%;}
+
+.full-width {
+    width: 100vw;
+    position: relative;
+    left: 50%;
+    right: 50%;
+    margin-left: -50vw;
+    margin-right: -50vw;
+}
+
+
+.item-card .categories {
+    position: absolute;
+    top: 10px;
+    left: 30px;
+    font-size:13px;
+    a {
+        background:#333;
+        color:white;
+        padding:2px 4px;
+        border-radius:4px;
+    }
+}
+small, .small {
+    font-size: 80%;
+}
+
+.medium {
+    font-size: 95%;
+}
+.big {
+    font-size:1.4em;
+}
+
+
+/* ADDITIONAL CSS */
+
+/* NAV */
+
+nav {
+    background-color: #000;
+}
+nav, .nav-link {
+    color: rgb(253, 130, 13) !important;
+}
+
+/* NAV LOGO */
+.navbar-brand img {
+    max-width: 16vw; /* find suitable value for you */
+    display: block;
+    width: 100%;
+    }
+
+/* SOCIAL MEDIA LINS */
+.nav-call-to-action {
+    color: rgb(253, 130, 13);
+}
+
+/* SOCIAL ICONS */
+.social-icon {
+    color: rgb(253, 130, 13);
+    padding-left: 16px;
+}
+
+
+/* NAV MENU */
+.navbar-nav {
+    justify-content: flex-end!important;
+}
+
+/* COLLAPSE MENU */
+
+.navbar-toggler {
+    border-color: rgb(253, 130, 13) !important;
+  } 
+
+.navbar-toggler-icon {
+    border-color: rgb(253, 130, 13) !important;
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(253, 130, 13)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E") !important;
+}
+
+/* HOME INTRO */
+/* IMAGE DIV */
+img {max-width:100%;height: auto;}
+
+.image-div {
+    position: relative; 
+    height: 60vh; /* Set the desired height */
+    overflow: hidden;
+    margin-bottom: 5px;
+    border-radius: 5px;
+  }
+
+  .image-div img {
+    width: 100%;
+    height: auto;
+    position: relative;
+    bottom: 10%;
+  }
+
+  .overlay-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff !important;
+    text-align: center;
+    font-family: 'Sedgwick Ave', cursive;
+    letter-spacing: 0.01px;
+    h2 {
+        font-size: 6em;
+        color: rgb(255, 255, 255);
+    }
+  }
+
+
+  /* DESCRIPTIONS */
+  .description-item {
+    padding: 40px !important;
+    height: 100%;
+    font-size: 2em;
+  }
+
+  /* TESTIMONIALS */
+  .testimonial-box {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .testimonial-right {
+    border-right: 1px solid #fff;
+  }
+
+  .text-center {
+    text-align: center;
+  }
+  
+  .text-right {
+    text-align: right;
+  }
+  
+  .text-left {
+    text-align: left;
+  }
+
+
+  
+
+/* PRODUCTS */
+.product-board {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; /* Adjust as needed */
+}
+.product-item {
+    margin-bottom: 20px; /* Adjust as needed */
+    position: relative;
+    width: 30%; /* Adjust as needed */
+    margin: 20px; /* Adjust as needed */
+    overflow: hidden;
+}
+
+/*This code applies hover-over effects*/
+.product-image-container {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .product-image-container img {
+    width: 100%;
+    height: auto;
+    display: block;
+    transition: opacity 0.3s ease-in-out;
+  }
+  
+  .product-text {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0, 0, 0); /* Adjust as needed */
+    text-align: center;
+    opacity: 0;
+    padding: 15px;
+    transition: opacity 0.3s ease-in-out;
+    color: rgb(253, 130, 13);
+    font-size: 1.2em;
+  }
+  
+  .product-item:hover .product-image-container img {
+    opacity: 0;
+  }
+  
+  .product-item:hover .product-text {
+    opacity: 1;
+  }
+
+/* QUIENESSOMOS */
+
+.about-us-intro {
+  margin: 15px 0;
+  font-size: 1.5em;
+}
+
+/* FOOTER */
+.footer {
+    margin-top:4rem;
+    padding:30px 0;
+    ul li {
+        display: inline-block;
+        padding:10px;
+    }
+}
+
+.footer-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 75px;
+    color: rgb(253, 130, 13) !important;
+}
+
+.bi-whatsapp {
+  fill: rgb(253, 130, 13);
+}
+
+.whatsapp {
+  display: flex;
+  align-items: center;
+  padding: 1px;
+  a {
+    text-decoration: none;
+    color: rgb(253, 130, 13);
+  }
+  
+}
+.decrease-brightness {
+  filter: brightness(35%);
+}
+
+.hover-opacity:hover {
+    transition: all 0.3s;
+    opacity:.8;
+}
+
+
+  /* On screens that are 600px or less, set the background color to olive */
+@media screen and (max-width: 600px) {
+    .image-div {
+    height: 25vh; /* Set the desired height */
+    }
+
+    .overlay-text {
+        h2 {
+            font-size: 2.1em;
+        }
+      }
+
+      .footer-item {
+        height: 50px;
+    }
+
+    .footer-box {
+        margin-bottom: 50px;
+    }
+  }
