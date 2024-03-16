@@ -269,6 +269,10 @@ img {max-width:100%;height: auto;}
 
   /* Services */
   .service-item {
+    border: 1px solid;
+    border-color:  rgb(253, 130, 13);
+    color: rgb(253, 130, 13);
+    font-size: 1.2em;
     text-transform: uppercase;
   }
 
