@@ -1,76 +1,122 @@
 ---
-title: Home Buns
+title: Panes artesanales en Costa Rica
+description: Panes artesanales para hamburguesas, choripanes, subs y creaciones gastronómicas. Home Buns hornea en Costa Rica para hogares, restaurantes y eventos.
 layout: default
 ---
 
-<!-- HOME INTRO -->
-{% if page.url == "/" %}
-
-<!-- IMAGE DIV -->
-<div class="image-div">
-  <img class="intro" src="{{site.baseurl}}/assets/images/homeintro.webp">
-  <div class="overlay-text">
-    <h2>Si te gusta el pan, llegaste al lugar indicado</h2>
-  </div>
-</div>
-{% endif %}
-
-
-<!-- DESCRIPTIONS -->
-<div class="container mt-3">
-  <div class="row mb-3">
-    <div class="col-md-4">
-      <img src="https://via.placeholder.com/400" alt="Image 1" class="img-fluid">
-    </div>
-    <div class="col-md-8 description-item">
-      <p>Descubre nuestra selección diaria de panes artesanales, 
-        horneados con ingredientes frescos y amor por la tradición. 
-        Desde panes para hamburguesas hasta subs, tenemos algo para 
-        todos los amantes del pan.</p>
-    </div>
-  </div>
-  <div class="row mb-3">
-    <div class="col-md-8 description-item">
-      <p>Déjate tentar por nuestra exquisita variedad de sabores. Aquí encontraras pan de papa, ajo parmesano, brioche, chipotle y vegano.
-        Cada bocado es una experiencia dulce que deleitará tus sentidos.</p>
-    </div>
-    <div class="col-md-4">
-      <img src="https://via.placeholder.com/400" alt="Image 2" class="img-fluid">
-    </div>
-  </div>
-  <div class="row">
-    <div class="col-md-4">
-      <img src="https://via.placeholder.com/400" alt="Image 3" class="img-fluid">
-    </div>
-    <div class="col-md-8 description-item">
-      <p>Acompaña tus momentos de relax con nuestra repostería fresca. Desde trenzas de canela hasta babkas de chocolate, cada mordida es el complemento perfecto
-        para un delicioso café.</p>
-    </div>
-  </div>
-</div>
-
-<!-- TESTIMONIALS -->
-<div class="container mt-5 testimonial-box">
-  <div class="row">
-    <div class="col-md-6">
-      <div class="p-3 testimonial-right">
-        <p class="text-center">"Home Buns es nuestro aliado confiable desde hace años. 
-          Su pan es simplemente delicioso, y nuestros clientes siempre lo 
-          elogian. Además, su servicio al cliente es excepcional. Siempre 
-          están dispuestos a ayudar y cumplen con puntualidad. Con Home Buns, 
-          tenemos la seguridad de ofrecer lo mejor a nuestros clientes."</p>
-        <p>- Delicias del Chef</p>
+<section id="inicio" class="hero section-pad">
+  <div class="shell hero-grid">
+    <div class="hero-copy">
+      <p class="eyebrow">Home Buns · Costa Rica</p>
+      <h1>Pan artesanal para elevar cada hamburguesa, choripán y sándwich.</h1>
+      <p class="lead">Horneamos panes con cuidado, textura y sabor para hogares, restaurantes y eventos que buscan una mejor experiencia en cada bocado.</p>
+      <div class="actions">
+        <a class="button primary" href="https://wa.me/{{ site.whatsapp }}?text=Hola%20Home%20Buns%2C%20quiero%20hacer%20una%20consulta" target="_blank" rel="noopener">Escribinos por WhatsApp</a>
+        <a class="button secondary" href="#productos">Ver productos</a>
       </div>
     </div>
-    <div class="col-md-6">
-      <div class="p-3">
-        <p class="text-center">"Desde que comenzamos, Home Buns ha sido nuestro proveedor de 
-          pan preferido. Sus productos se venden como pan caliente en nuestra
-           tienda, y por una buena razón. No solo son deliciosos, sino que el 
-           equipo de Home Buns es amable y atento. ¡Estamos encantados de 
-           tenerlos como parte de nuestra familia empresarial!"</p>
-        <p class="text-right">- Mercado Frescura Natural</p>
-      </div>
+    <figure class="hero-card">
+      <img src="{{ site.baseurl }}/assets/images/products/Burger Brioche.jpg" alt="Pan burger brioche artesanal de Home Buns" width="1200" height="900">
+      <figcaption>Pan brioche suave, versátil y ligeramente dulce.</figcaption>
+    </figure>
+  </div>
+</section>
+
+<section id="productos" class="section-pad products-section">
+  <div class="shell">
+    <div class="section-heading">
+      <p class="eyebrow">Productos</p>
+      <h2>Pan para tus creaciones</h2>
+      <p>Estas son las opciones incluidas en el catálogo curado de Home Buns.</p>
+    </div>
+
+    <div class="product-grid">
+      <article class="product-card">
+        <img src="{{ site.baseurl }}/assets/images/products/Burger Brioche.jpg" alt="Burger Brioche de Home Buns" width="900" height="900">
+        <div><h3>Burger Brioche</h3><p>Clásico y versátil, con un delicado toque dulce que realza cualquier hamburguesa.</p><ul><li>Peso: 80–90 g</li><li>Diámetro: 10–11 cm</li></ul></div>
+      </article>
+      <article class="product-card">
+        <img src="{{ site.baseurl }}/assets/images/products/Pan de Papa.jpg" alt="Burger Papa de Home Buns" width="900" height="900">
+        <div><h3>Burger Papa</h3><p>El favorito de nuestros clientes. Increíblemente suave y resistente, con un sabor excepcional. Ideal para hamburguesas estilo smash.</p><ul><li>Peso: 80–90 g</li><li>Diámetro: 10–11 cm</li></ul></div>
+      </article>
+      <article class="product-card">
+        <div class="image-placeholder" role="img" aria-label="Imagen pendiente para Burger Challah">Imagen pendiente</div>
+        <div><h3>Burger Challah</h3><p>Inspirado en nuestra receta brioche, con ligeros ajustes que le brindan mayor firmeza. Ideal para hamburguesas de torta gruesa y con abundantes toppings.</p><ul><li>Peso: 80–90 g</li><li>Diámetro: 10–11 cm</li></ul></div>
+      </article>
+      <article class="product-card">
+        <img src="{{ site.baseurl }}/assets/images/products/Cuadrado 1080 gramos.jpg" alt="Cuadrado Brioche de Home Buns" width="900" height="900">
+        <div><h3>Cuadrado Brioche</h3><p>Suave, esponjoso y ligeramente dulce. Perfecto para desayunos, tostadas francesas o cualquier creación.</p><ul><li>Peso: 750 g</li><li>Presentación: 8 a 10 rebanadas gruesas</li><li>Opción disponible: Brioche trenzado de 1.250 g</li></ul></div>
+      </article>
+      <article class="product-card">
+        <img src="{{ site.baseurl }}/assets/images/products/Burger Ajo Parmesano.jpg" alt="Burger Ajo Parmesano de Home Buns" width="900" height="900">
+        <div><h3>Burger Ajo Parmesano</h3><p>Nuestra receta brioche con un irresistible toque de ajo y parmesano. Ideal para quienes buscan un sabor diferente.</p><ul><li>Peso: 85–95 g</li><li>Diámetro: 10–11 cm</li></ul></div>
+      </article>
+      <article class="product-card">
+        <img src="{{ site.baseurl }}/assets/images/products/Choripan-Hotdog 12cms.jpg" alt="Chori Brioche 12 cm de Home Buns" width="900" height="900">
+        <div><h3>Chori Brioche 12 cm</h3><p>El tamaño perfecto para un choripán clásico. Agrega chimichurri y disfruta. ¿Buscás algo más grande? Consultá por nuestra versión de 15 cm.</p><ul><li>Peso: 70 g</li></ul></div>
+      </article>
+      <article class="product-card">
+        <img src="{{ site.baseurl }}/assets/images/products/Subs 22cms.jpg" alt="Sub de Home Buns" width="900" height="900">
+        <div><h3>Sub 20 cm</h3><p>Disponible en cualquiera de nuestras masas. Perfecto para sándwiches, hot dogs XL, paninis o cualquier creación que tu negocio necesite.</p><ul><li>Peso: 110–120 g</li></ul></div>
+      </article>
     </div>
   </div>
-</div>
+</section>
+
+<section id="nosotros" class="section-pad about-section">
+  <div class="shell split">
+    <div>
+      <p class="eyebrow">Nosotros</p>
+      <h2>Una historia que empezó haciendo mejor pan en casa.</h2>
+    </div>
+    <div class="prose">
+      <p>En Home Buns, hornear no es solo un negocio; es una pasión. Nuestra historia comenzó con una idea simple: crear un pan de mejor calidad para preparar hamburguesas en casa.</p>
+      <p>Lo que empezó como un experimento fue tomando forma poco a poco. Daniel Pacheco comenzó a aprender cómo hacer pan de hamburguesa desde cero, primero para amigos y luego desde su apartamento.</p>
+      <p>Hoy, Home Buns produce más de 50 mil unidades al mes y trabaja con más de 120 clientes en toda Costa Rica, manteniendo el mismo espíritu: crear productos de calidad, mejorar constantemente y ofrecer un servicio cercano.</p>
+    </div>
+  </div>
+</section>
+
+<section id="por-que" class="section-pad highlights-section">
+  <div class="shell">
+    <div class="section-heading">
+      <p class="eyebrow">Por qué elegirnos</p>
+      <h2>Artesanía, calidad y evolución constante</h2>
+    </div>
+    <div class="highlight-grid">
+      <article><h3>Artesanía y calidad</h3><p>Cada producto es elaborado con cuidado, buscando textura, sabor y frescura que eleven la experiencia de cada bocado.</p></article>
+      <article><h3>Para hogares, restaurantes y eventos</h3><p>Ofrecemos panes y productos horneados pensados para distintas necesidades, sin perder el toque artesanal.</p></article>
+      <article><h3>Tradición e innovación</h3><p>Valoramos los procesos bien hechos y el sabor auténtico, mientras buscamos nuevas formas de mejorar productos y servicios.</p></article>
+    </div>
+  </div>
+</section>
+
+<section id="contacto" class="section-pad contact-section">
+  <div class="shell contact-card">
+    <div>
+      <p class="eyebrow">Contacto</p>
+      <h2>¿Querés cotizar o hacer una consulta?</h2>
+      <p>Escribinos por WhatsApp y contanos qué producto necesitás. También podés usar el formulario de contacto.</p>
+      <div class="actions">
+        <a class="button primary" href="https://wa.me/{{ site.whatsapp }}?text=Hola%20Home%20Buns%2C%20quiero%20informaci%C3%B3n%20sobre%20sus%20productos" target="_blank" rel="noopener">Chatear por WhatsApp</a>
+        <a class="button secondary" href="{{ site.form_url }}" target="_blank" rel="noopener">Abrir formulario</a>
+      </div>
+    </div>
+    <div class="visual-form" aria-label="Vista previa visual de formulario de contacto">
+      <span>Nombre</span><span>Correo o teléfono</span><span>Mensaje</span><strong>Enviar consulta</strong>
+    </div>
+  </div>
+</section>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Bakery",
+  "name": "Home Buns",
+  "url": "{{ site.url }}",
+  "logo": "{{ '/assets/images/brand/home-buns-logo.png' | absolute_url }}",
+  "telephone": "+50687510210",
+  "areaServed": "Costa Rica",
+  "sameAs": ["{{ site.social.instagram }}", "{{ site.social.facebook }}"]
+}
+</script>

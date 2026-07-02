@@ -1,11 +1,8 @@
-# Top Menu
+# Single-page landing navigation
 topmenu:
-
-# - title: 
-#  url: ""
-
 - title: Productos
-  url: "productos/"
-  
-- title: Quienes Somos
-  url: "quienessomos/"
+  url: "#productos"
+- title: Nosotros
+  url: "#nosotros"
+- title: Contacto
+  url: "#contacto"

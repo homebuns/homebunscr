@@ -1,13 +1,13 @@
 title: "Home Buns"
 email: info@homebuns.com
-timezone: UTC
+timezone: America/Costa_Rica
 baseurl: ""
 permalink: "/:title/"
-logo: 'assets/images/homebunslogo.jpg'
+logo: 'assets/images/brand/home-buns-logo.png'
 favicon: 'assets/images/favicon.ico'
 author: Adrian Robles
-locale: es_cr
-lang: es_cr
+locale: es_CR
+lang: es-CR
 markdown: kramdown
 kramdown:
   syntax_highlighter_opts:
@@ -15,25 +15,18 @@ kramdown:
 sass:
   sass_dir: _sass
   style: :compressed
-ganalytics: UA-113961478-1
-url: "https://homebunscr.com"
-
-# Products
-collections:
-  products:
-    _hide_content: false
-    output: true
-
+url: "https://www.homebunscr.com"
+description: "Panes artesanales para hamburguesas, choripanes, subs y creaciones gastronómicas en Costa Rica."
 
 # Social
 social:
   instagram: https://www.instagram.com/homebunscr/
   facebook: https://www.facebook.com/homebuns
 
-# Plugins
-plugins: 
-- jekyll-paginate
+whatsapp: "50687510210"
+form_url: "https://forms.office.com/pages/responsepage.aspx?id=5uvDhK_-KEuSu2h2j4wadmiMIUp_MaFGtMtCzaWHj0RUODRXSFg1M01JMlZENVE5WUgwQTk5UFhUOS4u&route=shorturl"
+
+plugins:
 - jekyll-sitemap
 - jekyll-feed
 - jekyll-seo-tag
-- jekyll-archives
