@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#fd820d">
+  <meta name="theme-color" content="#120d09">
   <link rel="icon" href="/assets/images/favicon.ico">
   <link rel="canonical" href="https://www.homebunscr.com/">
   <link rel="stylesheet" href="/assets/css/theme.css">
@@ -45,7 +45,18 @@
       <a class="brand" href="#inicio" aria-label="Home Buns inicio">
         <img src="/assets/images/brand/home-buns-logo.png" alt="Logo de Home Buns" width="150" height="150">
       </a>
-      <div class="nav-links">
+
+      <details class="mobile-menu">
+        <summary aria-label="Abrir menú">Menú</summary>
+        <div class="mobile-links">
+          <a href="#productos">Productos</a>
+          <a href="#nosotros">Nosotros</a>
+          <a href="#por-que">Por qué elegirnos</a>
+          <a href="#contacto">Contacto</a>
+        </div>
+      </details>
+
+      <div class="nav-links" aria-label="Enlaces principales">
         <a href="#productos">Productos</a>
         <a href="#nosotros">Nosotros</a>
         <a href="#por-que">Por qué elegirnos</a>
@@ -56,7 +67,12 @@
   </header>
 
   <main id="contenido">
-    <section id="inicio" class="hero section-pad">
+    
+
+
+
+
+<section id="inicio" class="hero section-pad">
   <div class="shell hero-grid">
     <div class="hero-copy">
       <p class="eyebrow">Home Buns · Costa Rica</p>
@@ -85,31 +101,31 @@
     <div class="product-grid">
       <article class="product-card">
         <img src="/assets/images/products/Burger Brioche.jpg" alt="Burger Brioche de Home Buns" width="900" height="900">
-        <div><h3>Burger Brioche</h3><p>Clásico y versátil, con un delicado toque dulce que realza cualquier hamburguesa.</p><ul><li>Peso: 80–90 g</li><li>Diámetro: 10–11 cm</li></ul></div>
+        <div class="product-copy"><h3>Burger Brioche</h3><p>Clásico y versátil, con un delicado toque dulce que realza cualquier hamburguesa.</p><dl class="measurements"><div><dt><svg class="measure-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 8h10l1.6 12H5.4L7 8Z"/><path d="M9 8a3 3 0 0 1 6 0"/></svg></dt><dd>80–90 g</dd></div><div><dt><svg class="measure-icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="7"/><path d="M5 12h14"/><path d="m16 9 3 3-3 3"/><path d="m8 9-3 3 3 3"/></svg></dt><dd>10–11 cm</dd></div></dl></div>
       </article>
       <article class="product-card">
         <img src="/assets/images/products/Pan de Papa.jpg" alt="Burger Papa de Home Buns" width="900" height="900">
-        <div><h3>Burger Papa</h3><p>El favorito de nuestros clientes. Increíblemente suave y resistente, con un sabor excepcional. Ideal para hamburguesas estilo smash.</p><ul><li>Peso: 80–90 g</li><li>Diámetro: 10–11 cm</li></ul></div>
+        <div class="product-copy"><h3>Burger Papa</h3><p>El favorito de nuestros clientes. Increíblemente suave y resistente, con un sabor excepcional. Ideal para hamburguesas estilo smash.</p><dl class="measurements"><div><dt><svg class="measure-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 8h10l1.6 12H5.4L7 8Z"/><path d="M9 8a3 3 0 0 1 6 0"/></svg></dt><dd>80–90 g</dd></div><div><dt><svg class="measure-icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="7"/><path d="M5 12h14"/><path d="m16 9 3 3-3 3"/><path d="m8 9-3 3 3 3"/></svg></dt><dd>10–11 cm</dd></div></dl></div>
       </article>
       <article class="product-card">
         <div class="image-placeholder" role="img" aria-label="Imagen pendiente para Burger Challah">Imagen pendiente</div>
-        <div><h3>Burger Challah</h3><p>Inspirado en nuestra receta brioche, con ligeros ajustes que le brindan mayor firmeza. Ideal para hamburguesas de torta gruesa y con abundantes toppings.</p><ul><li>Peso: 80–90 g</li><li>Diámetro: 10–11 cm</li></ul></div>
+        <div class="product-copy"><h3>Burger Challah</h3><p>Inspirado en nuestra receta brioche, con ligeros ajustes que le brindan mayor firmeza. Ideal para hamburguesas de torta gruesa y con abundantes toppings.</p><dl class="measurements"><div><dt><svg class="measure-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 8h10l1.6 12H5.4L7 8Z"/><path d="M9 8a3 3 0 0 1 6 0"/></svg></dt><dd>80–90 g</dd></div><div><dt><svg class="measure-icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="7"/><path d="M5 12h14"/><path d="m16 9 3 3-3 3"/><path d="m8 9-3 3 3 3"/></svg></dt><dd>10–11 cm</dd></div></dl></div>
       </article>
       <article class="product-card">
         <img src="/assets/images/products/Cuadrado 1080 gramos.jpg" alt="Cuadrado Brioche de Home Buns" width="900" height="900">
-        <div><h3>Cuadrado Brioche</h3><p>Suave, esponjoso y ligeramente dulce. Perfecto para desayunos, tostadas francesas o cualquier creación.</p><ul><li>Peso: 750 g</li><li>Presentación: 8 a 10 rebanadas gruesas</li><li>Opción disponible: Brioche trenzado de 1.250 g</li></ul></div>
+        <div class="product-copy"><h3>Cuadrado Brioche</h3><p>Suave, esponjoso y ligeramente dulce. Perfecto para desayunos, tostadas francesas o cualquier creación.</p><dl class="measurements"><div><dt><svg class="measure-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 8h10l1.6 12H5.4L7 8Z"/><path d="M9 8a3 3 0 0 1 6 0"/></svg></dt><dd>750 g</dd></div><div><dt><svg class="measure-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 20V8a5 5 0 0 1 10 0v12H7Z"/><path d="M10 20V7"/><path d="M14 20V7"/></svg></dt><dd>8 a 10 rebanadas gruesas</dd></div><div><dt><svg class="measure-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3 3 8l9 5 9-5-9-5Z"/><path d="m3 12 9 5 9-5"/><path d="m3 16 9 5 9-5"/></svg></dt><dd>Brioche trenzado de 1.250 g</dd></div></dl></div>
       </article>
       <article class="product-card">
         <img src="/assets/images/products/Burger Ajo Parmesano.jpg" alt="Burger Ajo Parmesano de Home Buns" width="900" height="900">
-        <div><h3>Burger Ajo Parmesano</h3><p>Nuestra receta brioche con un irresistible toque de ajo y parmesano. Ideal para quienes buscan un sabor diferente.</p><ul><li>Peso: 85–95 g</li><li>Diámetro: 10–11 cm</li></ul></div>
+        <div class="product-copy"><h3>Burger Ajo Parmesano</h3><p>Nuestra receta brioche con un irresistible toque de ajo y parmesano. Ideal para quienes buscan un sabor diferente.</p><dl class="measurements"><div><dt><svg class="measure-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 8h10l1.6 12H5.4L7 8Z"/><path d="M9 8a3 3 0 0 1 6 0"/></svg></dt><dd>85–95 g</dd></div><div><dt><svg class="measure-icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="7"/><path d="M5 12h14"/><path d="m16 9 3 3-3 3"/><path d="m8 9-3 3 3 3"/></svg></dt><dd>10–11 cm</dd></div></dl></div>
       </article>
       <article class="product-card">
         <img src="/assets/images/products/Choripan-Hotdog 12cms.jpg" alt="Chori Brioche 12 cm de Home Buns" width="900" height="900">
-        <div><h3>Chori Brioche 12 cm</h3><p>El tamaño perfecto para un choripán clásico. Agrega chimichurri y disfruta. ¿Buscás algo más grande? Consultá por nuestra versión de 15 cm.</p><ul><li>Peso: 70 g</li></ul></div>
+        <div class="product-copy"><h3>Chori Brioche 12 cm</h3><p>El tamaño perfecto para un choripán clásico. Agrega chimichurri y disfruta. ¿Buscás algo más grande? Consultá por nuestra versión de 15 cm.</p><dl class="measurements"><div><dt><svg class="measure-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 8h10l1.6 12H5.4L7 8Z"/><path d="M9 8a3 3 0 0 1 6 0"/></svg></dt><dd>70 g</dd></div></dl></div>
       </article>
       <article class="product-card">
         <img src="/assets/images/products/Subs 22cms.jpg" alt="Sub de Home Buns" width="900" height="900">
-        <div><h3>Sub 20 cm</h3><p>Disponible en cualquiera de nuestras masas. Perfecto para sándwiches, hot dogs XL, paninis o cualquier creación que tu negocio necesite.</p><ul><li>Peso: 110–120 g</li></ul></div>
+        <div class="product-copy"><h3>Sub 20 cm</h3><p>Disponible en cualquiera de nuestras masas. Perfecto para sándwiches, hot dogs XL, paninis o cualquier creación que tu negocio necesite.</p><dl class="measurements"><div><dt><svg class="measure-icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M7 8h10l1.6 12H5.4L7 8Z"/><path d="M9 8a3 3 0 0 1 6 0"/></svg></dt><dd>110–120 g</dd></div></dl></div>
       </article>
     </div>
   </div>
@@ -145,18 +161,10 @@
 
 <section id="contacto" class="section-pad contact-section">
   <div class="shell contact-card">
-    <div>
-      <p class="eyebrow">Contacto</p>
-      <h2>¿Querés cotizar o hacer una consulta?</h2>
-      <p>Escribinos por WhatsApp y contanos qué producto necesitás. También podés usar el formulario de contacto.</p>
-      <div class="actions">
-        <a class="button primary" href="https://wa.me/50687510210?text=Hola%20Home%20Buns%2C%20quiero%20informaci%C3%B3n%20sobre%20sus%20productos" target="_blank" rel="noopener">Chatear por WhatsApp</a>
-        <a class="button secondary" href="https://forms.office.com/pages/responsepage.aspx?id=5uvDhK_-KEuSu2h2j4wadmiMIUp_MaFGtMtCzaWHj0RUODRXSFg1M01JMlZENVE5WUgwQTk5UFhUOS4u&route=shorturl" target="_blank" rel="noopener">Abrir formulario</a>
-      </div>
-    </div>
-    <div class="visual-form" aria-label="Vista previa visual de formulario de contacto">
-      <span>Nombre</span><span>Correo o teléfono</span><span>Mensaje</span><strong>Enviar consulta</strong>
-    </div>
+    <p class="eyebrow">Contacto</p>
+    <h2>¿Querés cotizar o hacer una consulta?</h2>
+    <p>Escribinos por WhatsApp y contanos qué producto necesitás.</p>
+    <a class="button primary" href="https://wa.me/50687510210?text=Hola%20Home%20Buns%2C%20quiero%20hacer%20una%20consulta" target="_blank" rel="noopener">Enviar consulta</a>
   </div>
 </section>
 
@@ -165,7 +173,7 @@
   "@context": "https://schema.org",
   "@type": "Bakery",
   "name": "Home Buns",
-  "url": "https://www.homebunscr.com",
+  "url": "https://www.homebunscr.com/",
   "logo": "https://www.homebunscr.com/assets/images/brand/home-buns-logo.png",
   "telephone": "+50687510210",
   "areaServed": "Costa Rica",
@@ -192,6 +200,7 @@
         <a href="https://wa.me/50687510210" target="_blank" rel="noopener">WhatsApp</a>
       </div>
     </div>
+    <p class="credit">Website by <a href="https://www.linkedin.com/in/aroblesfuentes/" target="_blank" rel="noopener">Adrian Robles</a></p>
     <p class="copyright">© 2026 Home Buns. Todos los derechos reservados.</p>
   </footer>
 </body>
