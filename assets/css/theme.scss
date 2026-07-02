@@ -154,7 +154,8 @@ h3 { font-size: 1.32rem; }
   box-shadow: var(--shadow);
 }
 .contact-copy { display: grid; justify-items: center; gap: 14px; }
-.contact-card .button { max-width: 260px; margin-top: 10px; }
+.contact-actions { display: flex; flex-wrap: wrap; justify-content: center; gap: 12px; width: 100%; margin-top: 8px; }
+.contact-card .button { max-width: 280px; }
 .form-card {
   width: 100%;
   max-width: 520px;
